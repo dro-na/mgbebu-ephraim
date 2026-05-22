@@ -9,7 +9,6 @@
      box-sizing: border-box;
      font-family: 'Raleway', sans-serif;
      scroll-behavior: smooth;
-
  }
 
 
@@ -203,7 +202,7 @@
 
 
                      .red {
-                         color: rgb(132, 13, 13);
+                         color: white;
                          font-style: italic;
                          background-color: rgba(0, 0, 0, 0.651);
                          padding: .2em;
@@ -212,7 +211,7 @@
                      }
 
                      .green {
-                         color: rgb(3, 70, 8);
+                         color: rgba(94, 35, 35, 0.703);
                          font-style: italic;
                          background-color: rgba(187, 186, 190, 0.658);
                          padding: .2em;
@@ -257,9 +256,16 @@
              .intro-text {
 
                  margin-bottom: 3em;
+                 line-height: 2em;
+               
+                 font-size: 1.3em;
 
                  p {
                      margin-top: 2em;
+                     b{
+                        color: rgb(219, 5, 5);
+                        font-style:italic;
+                     }
                  }
              }
 
@@ -545,7 +551,7 @@
                          .progress {
                              background-color: #149DDD;
                              height: 10px;
-                             width: 75%;
+                             width: 60%;
                          }
                      }
                  }
@@ -570,7 +576,7 @@
                          .progress {
                              background-color: #149DDD;
                              height: 10px;
-                             width: 80%;
+                             width: 100%;
                          }
                      }
                  }
@@ -620,7 +626,7 @@
                          .progress {
                              background-color: #149DDD;
                              height: 10px;
-                             width: 50%;
+                             width: 90%;
                          }
                      }
                  }
