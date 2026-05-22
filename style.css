@@ -184,9 +184,10 @@
                  h2 {
                      font-size: 3em;
                      margin-bottom: .2em;
+                     color: rgb(198, 221, 240);
 
                      @media (max-width: 800px) {
-                         font-size: 1.5em;
+                         font-size: 2.3em;
                          padding-bottom: 1em;
                      }
 
